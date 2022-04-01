@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    width:100%;
+    height:100vh;
+    max-width:1440px;
+    background:hsl(225, 100%, 94%);
+    background-size:cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width:380px;
+    height:510px;
+    background:#fff; 
+    margin:50px auto;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
+.hero{
+    width:380px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+.container p{
+    text-align: center;
+    font-size:12px;
+    margin-top:10px;
+    color:grey;
+}
+.container h1{
+    text-align: center;
+    font-size:26px;
+    margin-top:20px;
+}
+.box{
+    width:89%;
+    background:hsl(225, 100%, 98%);
+    align-items: center;
+    padding:10px;
+    margin:25px 15px 15px;
+    display: flex;
+}
+.box .music{
+    width:35px;
+    margin:5px;
+    margin-left:10px;
+}
+.box h2{
+    font-size:15px;
+    margin-bottom:4px;
+    margin-left:12px;
+}
+.box span{
+    display:block;
+    font-weight:500;
+}
+.box h3{
+    color:hsl(245, 75%, 52%);
+    margin-left:80px;
+    text-decoration:underline;
+    font-size:15px;
+}
+.btn{
+    width:89%;
+    color:#fff;
+    background:hsl(245, 75%, 52%);
+    border:1px solid;
+    border-radius:6px;
+    padding:10px;
+    margin:5px 15px 5px;
+    box-shadow:2px 2px rgba(0,0,0,0.1);
+    cursor:pointer;
+}
+.link h4{
+    font-weight:700;
+     color:grey;
+     text-decoration: none;
+     margin-top:20px;
+     margin-left:35%;
+     cursor:pointer;
+}
